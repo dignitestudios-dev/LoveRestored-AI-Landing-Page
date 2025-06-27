@@ -29,23 +29,26 @@ const ContactUs = () => {
             <h3 className="mb-2 sm:text-[22px] font-bold">Email</h3>
             <div className="flex items-center gap-2">
               <Email />{" "}
-              <p className="text-[#cccccc] text-sm">
+              <a
+                href="mailto:business.solutions@loverestoredai.com"
+                className="text-[#cccccc] text-sm"
+              >
                 business.solutions@loverestoredai.com
-              </p>
+              </a>
             </div>
 
             <div className="flex items-center gap-2 mt-2">
               <Email />{" "}
-              <p className="text-[#cccccc] text-sm">
+              <a href="mailto:support@loverestoredai.com" className="text-[#cccccc] text-sm">
                 support@loverestoredai.com{" "}
-              </p>
+              </a>
             </div>
           </li>
           <li>
             <h3 className="mb-2 sm:text-[22px] font-bold">Phone</h3>
             <div className="flex items-center gap-2">
               <Phone />{" "}
-              <p className="text-[#cccccc] text-sm">+1 (727) 459-8735</p>
+              <a href="tel:+1 (727) 459-8735" className="text-[#cccccc] text-sm">+1 (727) 459-8735</a>
             </div>
           </li>
         </ul>
