@@ -1,0 +1,42 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+:root {
+  --primary-dark: #be8b36;
+  --primary-light: #dab462;
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("/fonts/Helvetica.ttf");
+}
+
+@font-face {
+  font-family: "Helvetica-Bold";
+  src: url("/fonts/Helvetica-Bold.ttf");
+}
+
+* {
+  font-family: "Helvetica";
+  letter-spacing: 0.6px;
+}
+
+.contact-bg {
+  background: linear-gradient(
+    270deg,
+    rgba(34, 34, 34, 0.5) 0%,
+    rgba(34, 34, 34, 0.5) 100%
+  );
+  backdrop-filter: blur(8px);
+  border-width: 0.5px 0 0.5px 0.5px;
+  border-color: #50505036;
+  box-shadow: 0px 6px 16px 0px #0000004d;
+}
+
+.input-class {
+  background: #ffffff0d;
+  border: 1px solid #ffffff33;
+  border-radius: 6px;
+  height: 42px;
+  padding-left: 10px;
+}
