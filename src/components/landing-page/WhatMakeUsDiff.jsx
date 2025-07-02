@@ -18,7 +18,7 @@ const WhatMakeUsDiff = () => {
     },
     {
       title: "Community Support",
-      description: "that track progress and suggest real solutions.",
+      description: "with anonymous chats, private messaging.",
     },
     {
       title: "Date Night Planning",

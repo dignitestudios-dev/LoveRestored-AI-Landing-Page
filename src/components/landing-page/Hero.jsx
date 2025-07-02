@@ -12,12 +12,14 @@ const Hero = () => {
 
       <div>
         <h1 className="md:text-[60px] sm:text-[40px] text-[30px] sm:leading-[120%] leading-[110%] font-bold text-center">
-          Because We Pride Ourselves <br className="sm:block hidden" /> On Building Bridges and <br className="sm:block hidden" />{" "}
-          Strengthening Bonds{" "}
+          Because We Pride Ourselves <br className="sm:block hidden" /> On
+          Building Bridges and <br className="sm:block hidden" /> Strengthening
+          Bonds{" "}
         </h1>
         <p className="text-center sm:mt-10 mt-6 text-[#CCCCCC]">
-          Our app delivers expert-level advice powered and designed to make
-          navigating your <br className="md:block hidden" /> relationship healthier but smarter.
+          Our app delivers expert-level guidance, thoughtfully designed to help
+          you navigate <br className="md:block hidden" /> your relationship in a
+          healthier & smarter way.
         </p>
 
         <div className="mt-5 flex sm:gap-5 gap-3 justify-center">
