@@ -1,9 +1,14 @@
 "use client";
+import Logo from "@/components/icons/Logo";
 import React from "react";
 
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen bg-[#181818] text-gray-200 px-6 py-12">
+      <div className="mb-10">
+        <Logo />
+      </div>
+
       <div className="max-w-3xl mx-auto">
         <h1 className="text-3xl sm:text-4xl font-bold text-white mb-6">
           Privacy Policy

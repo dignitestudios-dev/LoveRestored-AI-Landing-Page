@@ -1,4 +1,3 @@
-import Navbar from "@/components/Navbar";
 import "./globals.css";
 import Footer from "@/components/Footer";
 
@@ -15,7 +14,6 @@ export default function RootLayout({ children }) {
     <html lang="en" className="scroll-smooth">
       <body className={`antialiased bg-[#181818] w-full overflow-x-hidden`}>
         <main className="text-white sm:pt-7 w-full flex flex-col items-center">
-          <Navbar />
           {children}
           <Footer />
         </main>

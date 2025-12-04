@@ -12,7 +12,7 @@ const Navbar = () => {
   return (
     <>
       <div className="max-w-[1440px] md:px-10 sm:px-5 px-2 w-full flex justify-between items-center">
-        <div className="lg:scale-100 md:scale-90 sm:scale-75 scale-50">
+        <div className="lg:scale-100 md:scale-90 scale-75 sm:pt-0 pt-2">
           <Logo />
         </div>
         <ul className="lg:flex hidden gap-12">
