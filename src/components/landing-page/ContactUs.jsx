@@ -73,16 +73,27 @@ const ContactUs = () => {
 
         <div className="sm:p-10 p-5 md:rounded-s-xl md:rounded-e-none rounded-xl contact-bg">
           <h1 className="sm:text-[32px] text-[30px] leading-[120%] font-bold">
-            Contact Details
+            We're Here When <br className="sm:block hidden" /> You Need Us
           </h1>
           <p className="mt-3 text-[#cccccc] text-sm">
-            Have questions or feedback? Get in touch with our <br /> friendly
-            support team for assistance. We're here to help!
+            Real questions deserve real answers — not chatbots, not ticket
+            <br className="sm:block hidden" />
+            numbers, not a forty-eight-hour silence. Whether you're trying the
+            <br className="sm:block hidden" />
+            app for the first time, troubleshooting an issue, or just want to
+            <br className="sm:block hidden" />
+            talk to a human about what you're navigating right now, reach out.
+            <br className="sm:block hidden" />
+            Someone on our team will be there. That's the whole point of what{" "}
+            <br className="sm:block hidden" /> we do.
           </p>
 
           <ul className="flex flex-col sm:gap-6 gap-3 mt-7">
             <li>
-              <h3 className="mb-2 sm:text-[22px] font-bold">Email</h3>
+              <h3 className="mb-2 sm:text-[22px] font-bold">
+                {" "}
+                Email Us Directly
+              </h3>
               <div className="flex items-center gap-2">
                 <Email />{" "}
                 <a
@@ -104,7 +115,7 @@ const ContactUs = () => {
               </div>
             </li>
             <li>
-              <h3 className="mb-2 sm:text-[22px] font-bold">Phone</h3>
+              <h3 className="mb-2 sm:text-[22px] font-bold">Or Call Us</h3>
               <div className="flex items-center gap-2">
                 <Phone />{" "}
                 <a
@@ -119,11 +130,16 @@ const ContactUs = () => {
         </div>
         <div className="sm:p-10 p-5 bg-white/5 border border-s-0 border-white/10 text-white shadow-xl shadow-black/25 md:rounded-e-xl md:rounded-s-none rounded-xl backdrop-blur-[20px]">
           <h2 className="sm:text-[32px] text-[30px] leading-[120%] font-bold">
-            Let’s Connect{" "}
+            Send Us a Message
           </h2>
           <p className="mt-3 text-[#cccccc] text-sm">
-            Have questions or feedback? Get in touch with our friendly <br />{" "}
-            support team for assistance. We're here to help!
+            Tell us what's on your mind. Questions about features,
+            <br /> feedback that could make the app better, partnership
+            <br />
+            opportunities, or something we haven't even thought of <br /> yet —
+            we read every message that comes in. We get back <br /> to you
+            within one business day. No bots. No runaround. <br />
+            Just a real human reading your words and writing back.
           </p>
 
           <form className="grid grid-cols-2 gap-3 mt-7" onSubmit={handleSubmit}>
@@ -192,7 +208,7 @@ const ContactUs = () => {
                   {loading && (
                     <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
                   )}
-                  <span>{loading ? "Submitting..." : "Submit"}</span>
+                  <span>{loading ? "Sending..." : "Send My Message"}</span>
                 </div>
               </Button>
             </div>

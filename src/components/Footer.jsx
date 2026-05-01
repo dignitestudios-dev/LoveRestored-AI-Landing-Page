@@ -1,7 +1,14 @@
 import React from "react";
 import Logo from "./icons/Logo";
 import Link from "next/link";
-import { FaLinkedin, FaYoutube } from "react-icons/fa";
+import {
+  FaFacebook,
+  FaInstagram,
+  FaLinkedin,
+  FaPinterest,
+  FaTiktok,
+  FaYoutube,
+} from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
@@ -23,9 +30,9 @@ const Footer = () => {
               <li>
                 <Link href={"#features"}>Features</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href={"#testimonials"}>Testimonials</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href={"#contact"}>Contact Us</Link>
               </li>
@@ -42,21 +49,49 @@ const Footer = () => {
           <div>
             <ul className="flex items-center gap-5 text-[#8A8F98]">
               <li>
-                <Link href={"#"}>Social Links: </Link>
+                <p>Social Links: </p>
               </li>
-              <li>
+              {/* <li>
                 <Link href={"#"}>
                   <FaLinkedin className="text-xl" />
                 </Link>
-              </li>
+              </li> */}
               <li>
-                <Link href={"#"}>
+                <Link href={"https://x.com/LoveRestoredAI"}>
                   <FaXTwitter className="text-xl" />
                 </Link>
               </li>
               <li>
-                <Link href={"#"}>
+                <Link
+                  href={
+                    "https://studio.youtube.com/channel/UCwtTxuBWGdYUrNNJpigBYXQ"
+                  }
+                >
                   <FaYoutube className="text-xl" />
+                </Link>
+              </li>
+              <li>
+                <Link href={"https://www.instagram.com/loverestored_ai/"}>
+                  <FaInstagram className="text-xl" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href={
+                    "https://www.facebook.com/profile.php?id=61569133592087"
+                  }
+                >
+                  <FaFacebook className="text-xl" />
+                </Link>
+              </li>
+              <li>
+                <Link href={"https://www.pinterest.com/loverestoredai/"}>
+                  <FaPinterest className="text-xl" />
+                </Link>
+              </li>
+              <li>
+                <Link href={"https://www.tiktok.com/@loverestoredai?lang=en"}>
+                  <FaTiktok className="text-xl" />
                 </Link>
               </li>
             </ul>

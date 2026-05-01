@@ -5,13 +5,18 @@ import RandomHeartIconsAbout from "./RandomHeartIconsAbout";
 
 const AboutUs = () => {
   return (
-    <div id="about" className="max-w-[1440px] sm:px-10 px-4 grid lg:grid-cols-2 gap-10 md:mt-32 sm:my-20 my-12 items-center relative">
+    <div
+      id="about"
+      className="max-w-[1440px] sm:px-10 px-4 grid lg:grid-cols-2 gap-10 md:mt-32 sm:my-20 my-12 items-center relative"
+    >
       <RandomHeartIconsAbout />
 
       <div>
-        <h1 className="sm:text-[50px] text-[30px] leading-[120%] font-bold">About Us</h1>
+        <h1 className="sm:text-[50px] text-[30px] leading-[120%] font-bold">
+          Why This App Exists
+        </h1>
 
-        <p className="md:mt-6 mt-3 text-[#CCCCCC]">
+        {/* <p className="md:mt-6 mt-3 text-[#CCCCCC]">
           At <b className="text-(--primary-light)"> LoveRestored.AI </b>, we
           believe that every relationship—no matter how broken, distant, or
           misunderstood—has the potential to be restored, reignited, and
@@ -30,16 +35,29 @@ const AboutUs = () => {
           growth. Whether you're struggling with communication, feeling
           unappreciated, or simply want to rekindle the romance, our app meets
           you where you are and helps guide you to where you want to be.
+        </p> */}
+        <p className="md:mt-6 mt-3 text-[#CCCCCC]">
+          You don't need another article telling you to "communicate better."
+          You don't need another book gathering dust on the nightstand. You need
+          help in the exact moment your relationship is on the line — when the
+          words won't come, when the fight is escalating, when the silence has
+          lasted too long. That's the gap LoveRestored.AI was built to close.
+          Not theory. Not platitudes. Real-time guidance, in your hand, the
+          second you need it.
         </p>
 
         <h2 className="text-[28px] leading-[120%] font-bold my-4">
-          Our Mission
+          What This App Does for You
         </h2>
 
         <p className="text-[#CCCCCC]">
-          To help couples heal, grow, and thrive—one interaction at a time—using
-          AI-powered tools, real-time guidance, and innovative features that
-          restore love from the inside out.
+          Helps you say the right thing when the wrong thing is on the tip of
+          your tongue. De-escalates fights before they explode into damage you
+          can't take back. Gives you the language, the tools, and the
+          perspective most people spend years in therapy trying to find. Whether
+          you're fighting to save what you have, building something brand new,
+          or rebuilding yourself first — this app walks with you. One moment at
+          a time. Starting now.
         </p>
 
         <div className="mt-5 flex gap-5">

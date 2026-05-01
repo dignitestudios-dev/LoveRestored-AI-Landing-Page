@@ -12,14 +12,20 @@ const Hero = () => {
 
       <div>
         <h1 className="md:text-[60px] sm:text-[40px] text-[30px] sm:leading-[120%] leading-[110%] font-bold text-center">
-          Because We Pride Ourselves <br className="sm:block hidden" /> On
-          Building Bridges and <br className="sm:block hidden" /> Strengthening
-          Bonds{" "}
+          You Already Know What's Wrong.
+          <br className="sm:block hidden" /> Now You Have What Fixes It.
         </h1>
         <p className="text-center sm:mt-10 mt-6 text-[#CCCCCC]">
-          Our app delivers expert-level guidance, thoughtfully designed to help
-          you navigate <br className="md:block hidden" /> your relationship in a
-          healthier & smarter way.
+          The arguments. The silence. The same painful loop on repeat. You've
+          known for a while — something <br className="sm:block hidden" /> has
+          to change. LoveRestored.AI is the relationship coach in your pocket
+          that meets you in the <br className="sm:block hidden" /> exact
+          moment’s words fail, fights escalate, and connection slips. Real-time
+          tools. <br className="sm:block hidden" /> Personalized guidance. Real
+          change, starting tonight.
+        </p>
+        <p className="text-center sm:mt-10 text-[13px] text-[#CCCCCC]">
+          Free to download • iOS & Android • Real help in 60 seconds.
         </p>
 
         <div className="mt-5 flex sm:gap-5 gap-3 justify-center">

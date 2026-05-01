@@ -149,12 +149,18 @@ const Testimonials = () => {
 
       <div className="px-10">
         <h1 className="sm:text-[50px] text-[30px] leading-[120%] font-bold text-center">
-          Testimonials{" "}
+          Real People. Real <br className="sm:block hidden" /> Moments. Real
+          Change.
         </h1>
         <p className="mt-6 text-[#CCCCCC] text-center">
-          Platform bridges the gap between traditional counseling and impersonal
-          online advice by offering AI-powered coaching. <br /> and interactive
-          tools to support relationships.
+          These are the words from people who downloaded this app at the lowest
+          moment of their relationship — and discovered something{" "}
+          <br className="sm:block hidden" /> different on the other side. Some
+          saved marriages they thought were over. Some learned how to love
+          better than they <br className="sm:block hidden" /> ever had before.
+          Some finally felt heard for the first time in years. This is what's{" "}
+          possible when you stop <br className="sm:block hidden" /> hoping
+          things will change and start having the tools that make them change.
         </p>
       </div>
 
